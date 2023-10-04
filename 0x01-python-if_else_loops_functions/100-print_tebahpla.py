@@ -4,4 +4,4 @@ for i in range(90, 64, -1):
         print("{}".format(chr(i + 32)), end="")
     else:
         print("{}".format(chr(i)), end="")
-print()
+print(end="")
