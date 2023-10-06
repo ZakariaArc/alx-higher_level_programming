@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-exec('import builtins\nbuiltins.print("#pythoniscool")')
+getattr(__builtins__, 'print')("#pythoniscool")
