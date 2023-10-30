@@ -14,8 +14,8 @@ class Rectangle:
         """Initialize a new Rectangle.
 
         Args:
-            width (int, optional): The width of the new rectangle (default is 0).
-            height (int, optional): The height of the new rectangle (default is 0).
+            width (int, optional): new rectangle width (default is 0).
+            height (int, optional): new rectangle height (default is 0).
         """
         self.width = width
         self.height = height
