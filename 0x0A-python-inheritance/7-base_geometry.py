@@ -4,6 +4,7 @@ Module containing a class BaseGeometry with
 area() and integer_validator() methods.
 """
 
+
 class BaseGeometry:
     def area(self):
         """Raises an Exception with the message 'area() is not implemented'"""
@@ -15,4 +16,3 @@ class BaseGeometry:
             raise TypeError('{} must be an integer'.format(name))
         if value <= 0:
             raise ValueError('{} must be greater than 0'.format(name))
-
