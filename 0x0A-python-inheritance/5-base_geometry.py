@@ -3,5 +3,6 @@
 module containing an empty class BaseGeometry
 """
 
+
 class BaseGeometry:
     pass
