@@ -9,7 +9,7 @@ import turtle
 
 class Base:
     """Base model
-
+    
     Private Class Attributes:
         __nb_object (int): Number of instantiated Bases.
     """
